@@ -13,19 +13,19 @@ docker ps -a
 docker images
 
 # Remove image
-docker rmi <imageId>
+docker rmi imageId
  
 # To start container
-docker run <imageName>
+docker run imageName
   
 # To start stopped container
-docker start <containerId>
+docker start containerId
 
 #  To stop the running container
-docker stop <containerId>
+docker stop containerId
 
 # Ip address of the container
-docker inspect <containerId>
+docker inspect containerId
 
 # Get disk usuage space of docker
 docker system df
