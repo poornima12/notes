@@ -7,5 +7,10 @@
                 System.out.println("Inside : " + Thread.currentThread().getName());
             }
         };
+
+<br/> in java 8
+<br/>Runnable runnable = () -> {
+            System.out.println("Inside : " + Thread.currentThread().getName());
+        };
         
         
